@@ -6,13 +6,13 @@
 * Email: kindakostjuk@gmail.ru
 ## About me:
  I am 28 years old. I have been interested in software development for a long time. Aimed at systematic growth and development of my skills. I believe that the skills I have acquired will be useful in this area.
- ## Skills:
+## Skills:
  * Git and Markdown
  * HTML 
  * CSS
  * JS Basics
- ## Code Example:
- ```for (let i = 0; i < 10; i++) {
+## Code Example:
+```for (let i = 0; i < 10; i++) {
  for (let j = 0; j < 10; j++) {
    if (i === 5 && j === 5) {
    }
