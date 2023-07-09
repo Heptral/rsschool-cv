@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Heptral.github.io/rsschool-cv/
