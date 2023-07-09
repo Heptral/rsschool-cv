@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header> 
+        <div class="container">
+            <nav class="menu">
+                <ul class="menu-list">
+                    <li class="menu-item"> <a class="menu-link" href="#abo">about</a> </li>
+                    <li class="menu-item"> <a class="menu-link" href="#cont">contacts</a></li>
+                    <li class="menu-item"> <a class="menu-link" href="#skill">skills</a></li>
+                    <li class="menu-item"> <a class="menu-link" href="#educ">education</a></li>
+                </ul>
+             </nav> 
+        </div>
+        </header>
+    <main>
+        <section class="about" id="abo">
+            <div class="container">
+                <div class="about-inner">
+                    <div class="photo">
+                        <img src="./img/photo_2022-01-26_08-33-02.jpg" alt="my photo">
+                    </div>
+                    <div class="info">
+                        <h1>Alexandr Kostjuk</h1>
+                        <h4>FUTURE FRONT-END DEVELOPER</h4>
+                        
+                    </div>
+                </div>
+                <div class="text-about">
+                    <p>I am 28 years old. I have been interested in software development for a long time. Aimed at systematic growth and development of my skills. I believe that the skills I have acquired will be useful in this area.</p>
+                </div>
+            </div>
+        </section>    
+
+        <section>
+            <div class="container" id="cont">
+                <div class="contacts-wrapper">
+                    <h2>contacts:</h2>
+                    <ol>
+                        <li>Phone: +375292895300</li>
+                        <li> <a class="colored" href="https://t.me/Heptral">Telegram</a></li>
+                        <li>Discord: Heptral#2536</li>
+                        <li>Email: kindakostjuk@gmail.com</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skill">
+            <div class="container">
+                <div class="skills-wrapper">
+                    <h2>Skills:</h2>
+                    <ol>
+                        <li>Git and Markdown</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS Basics</li>
+                    </ol>
+                    <h3>Projects:</h3>
+                    <p><a class="colored" href="https://heptral.github.io/cssBayan/cssBayan/index.html">cssBayan</a></p>
+                    <h3>Code Example:</h3>
+                    <pre>
+                        <code>
+                            let animal = {
+                                name: "animal",
+                                age: 10,
+                                childs: ["child 1", "child 2"]
+                                };
+                                
+                                let cat = clone(animal);
+                                cat.name = "cat";
+                                cat.age = 5;
+                                cat.childs.push("child 3");
+                                
+                                console.log(cat.name, cat.age); 
+                                console.log(cat.childs); 
+                                
+                                console.log(animal.name, animal.age); 
+                                console.log(animal.childs); 
+                                
+                                function clone(obj) {
+                                 return obj;
+                                }
+                        </code>
+                    </pre>
+                </div>
+            </div>
+        </section>
+        
+        <section class="education" id="educ">
+            <div class="container">
+                <div class="education-wrapper">
+                    <h2>Education:</h2>
+                    <p>2012-2018 GrSMU</p>
+                    <p>2023 RS School</p>
+                    <h3>English:</h3>
+                    <p>Level A2</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-list">
+                <div class="footer-item">
+                    <a  href="https://github.com/Heptral" target="_blank">
+                        <img class="git-img" src="./img/github.svg" alt="">
+                    </a>
+                </div>
+                <div class="footer-item"><p>2023</p></div>
+                <div class="footer-item"> <a href="https://rs.school/js/" target="_blank"> <img src="./img/logo-rsschool3.png" alt=""></a></div>
+            </div>
+        </div>
+   
+    </footer>
+</body>
+</html>
