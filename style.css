@@ -42,7 +42,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 body{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -50,12 +49,10 @@ body{
     line-height: 17px;
     color: #131313;
 }
-
 a{
     text-decoration: none;
     color: inherit;
 }
-
 section{
     margin-top: 50px;
 }
@@ -73,9 +70,6 @@ section{
     align-items: center;
     padding-left: 20px;
 }
-/* .photo{
-    width: 30%;
-} */
 .info{
     padding-left: 30px;
 }
